@@ -1,23 +1,13 @@
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
+
 import torch
 import numpy as np
 import shap
 import matplotlib.pyplot as plt
-import os
 
-import torch.nn as nn
-
-class LSTMModel(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size, dropout):
-        super(LSTMModel, self).__init__()
-        self.lstm = nn.LSTM(input_size, hidden_size, batch_first=True)
-        self.dropout = nn.Dropout(dropout)
-        self.fc = nn.Linear(hidden_size, output_size)
-        
-    def forward(self, x):
-        out, _ = self.lstm(x)
-        out = self.dropout(out[:, -1, :])
-        out = self.fc(out)
-        return out
+from src.models.architecture import LSTMModel
 
 def shap_analysis():
     print("Iniciando SHAP Analysis...")
@@ -64,7 +54,6 @@ def shap_analysis():
     plt.title("Impacto Global SHAP en la LSTM (2025)", fontsize=14, pad=20)
     plt.tight_layout()
     plt.savefig('reports/figures/shap_summary.png', bbox_inches='tight', dpi=300)
-    plt.savefig(r'C:\Users\Admin\.gemini\antigravity\brain\4e7ed046-b23a-442b-a4c9-542e895aa7cf\shap_summary.png', bbox_inches='tight', dpi=300)
     plt.close()
     
     # 2. Gráfica de Barras (Magnitud Absoluta Promedio)
@@ -73,7 +62,6 @@ def shap_analysis():
     plt.title("Importancia Promedio de las Variables Exógenas", fontsize=14, pad=20)
     plt.tight_layout()
     plt.savefig('reports/figures/shap_bar.png', bbox_inches='tight', dpi=300)
-    plt.savefig(r'C:\Users\Admin\.gemini\antigravity\brain\4e7ed046-b23a-442b-a4c9-542e895aa7cf\shap_bar.png', bbox_inches='tight', dpi=300)
     plt.close()
 
     print("Análisis SHAP completado. Gráficas exportadas con éxito.")

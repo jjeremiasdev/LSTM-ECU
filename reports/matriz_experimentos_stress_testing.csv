@@ -1,0 +1,118 @@
+Exp_ID,Shock_WTI_%,Shock_IPC_%,Empleo_Adecuado_Promedio_%,Desviacion_Estandar,Empleo_Min_%,Empleo_Max_%,Escenario
+EXP_001,-30.0,-1.0,34.67,1.19,33.17,36.3,Simulación Estándar
+EXP_002,-25.0,-1.0,34.7,1.19,33.19,36.33,Simulación Estándar
+EXP_003,-20.0,-1.0,34.72,1.19,33.21,36.35,Simulación Estándar
+EXP_004,-15.0,-1.0,34.74,1.19,33.23,36.37,Simulación Estándar
+EXP_005,-10.0,-1.0,34.76,1.19,33.25,36.39,Simulación Estándar
+EXP_006,-5.0,-1.0,34.78,1.19,33.27,36.41,Simulación Estándar
+EXP_007,0.0,-1.0,34.8,1.19,33.29,36.43,Simulación Estándar
+EXP_008,5.0,-1.0,34.82,1.19,33.31,36.45,Simulación Estándar
+EXP_009,10.0,-1.0,34.85,1.19,33.33,36.47,Simulación Estándar
+EXP_010,15.0,-1.0,34.87,1.19,33.35,36.49,Bonanza
+EXP_011,20.0,-1.0,34.89,1.19,33.37,36.51,Bonanza
+EXP_012,25.0,-1.0,34.91,1.19,33.39,36.53,Bonanza
+EXP_013,30.0,-1.0,34.93,1.19,33.41,36.55,Bonanza
+EXP_014,-30.0,-0.5,34.83,1.2,33.33,36.48,Simulación Estándar
+EXP_015,-25.0,-0.5,34.85,1.2,33.35,36.5,Simulación Estándar
+EXP_016,-20.0,-0.5,34.87,1.2,33.37,36.52,Simulación Estándar
+EXP_017,-15.0,-0.5,34.9,1.2,33.39,36.54,Simulación Estándar
+EXP_018,-10.0,-0.5,34.92,1.2,33.41,36.56,Simulación Estándar
+EXP_019,-5.0,-0.5,34.94,1.2,33.43,36.58,Simulación Estándar
+EXP_020,0.0,-0.5,34.96,1.2,33.45,36.61,Simulación Estándar
+EXP_021,5.0,-0.5,34.98,1.2,33.46,36.63,Simulación Estándar
+EXP_022,10.0,-0.5,35.0,1.2,33.48,36.65,Simulación Estándar
+EXP_023,15.0,-0.5,35.03,1.2,33.5,36.67,Bonanza
+EXP_024,20.0,-0.5,35.05,1.2,33.52,36.69,Bonanza
+EXP_025,25.0,-0.5,35.07,1.2,33.54,36.71,Bonanza
+EXP_026,30.0,-0.5,35.09,1.2,33.56,36.73,Bonanza
+EXP_027,-30.0,0.0,34.99,1.2,33.48,36.65,Simulación Estándar
+EXP_028,-25.0,0.0,35.01,1.2,33.5,36.67,Simulación Estándar
+EXP_029,-20.0,0.0,35.03,1.2,33.52,36.69,Simulación Estándar
+EXP_030,-15.0,0.0,35.05,1.2,33.54,36.71,Simulación Estándar
+EXP_031,-10.0,0.0,35.07,1.21,33.56,36.73,Simulación Estándar
+EXP_032,-5.0,0.0,35.09,1.21,33.58,36.75,Simulación Estándar
+EXP_033,0.0,0.0,35.12,1.21,33.6,36.78,Simulación Estándar
+EXP_034,5.0,0.0,35.14,1.21,33.62,36.8,Simulación Estándar
+EXP_035,10.0,0.0,35.16,1.21,33.64,36.82,Simulación Estándar
+EXP_036,15.0,0.0,35.18,1.21,33.66,36.84,Bonanza
+EXP_037,20.0,0.0,35.2,1.21,33.68,36.86,Bonanza
+EXP_038,25.0,0.0,35.22,1.21,33.7,36.88,Bonanza
+EXP_039,30.0,0.0,35.24,1.21,33.72,36.9,Bonanza
+EXP_040,-30.0,0.5,35.14,1.21,33.63,36.81,Simulación Estándar
+EXP_041,-25.0,0.5,35.16,1.21,33.65,36.84,Simulación Estándar
+EXP_042,-20.0,0.5,35.18,1.21,33.67,36.86,Simulación Estándar
+EXP_043,-15.0,0.5,35.2,1.21,33.69,36.88,Simulación Estándar
+EXP_044,-10.0,0.5,35.22,1.21,33.71,36.9,Simulación Estándar
+EXP_045,-5.0,0.5,35.25,1.21,33.73,36.92,Simulación Estándar
+EXP_046,0.0,0.5,35.27,1.21,33.75,36.94,Simulación Estándar
+EXP_047,5.0,0.5,35.29,1.21,33.77,36.96,Simulación Estándar
+EXP_048,10.0,0.5,35.31,1.21,33.79,36.98,Simulación Estándar
+EXP_049,15.0,0.5,35.33,1.21,33.81,37.0,Simulación Estándar
+EXP_050,20.0,0.5,35.35,1.21,33.83,37.02,Simulación Estándar
+EXP_051,25.0,0.5,35.38,1.21,33.85,37.05,Simulación Estándar
+EXP_052,30.0,0.5,35.4,1.21,33.87,37.07,Simulación Estándar
+EXP_053,-30.0,1.0,35.29,1.21,33.78,36.97,Simulación Estándar
+EXP_054,-25.0,1.0,35.31,1.21,33.8,37.0,Simulación Estándar
+EXP_055,-20.0,1.0,35.33,1.21,33.82,37.02,Simulación Estándar
+EXP_056,-15.0,1.0,35.35,1.21,33.84,37.04,Simulación Estándar
+EXP_057,-10.0,1.0,35.37,1.22,33.86,37.06,Simulación Estándar
+EXP_058,-5.0,1.0,35.4,1.22,33.89,37.08,Simulación Estándar
+EXP_059,0.0,1.0,35.42,1.22,33.91,37.1,Simulación Estándar
+EXP_060,5.0,1.0,35.44,1.22,33.93,37.12,Simulación Estándar
+EXP_061,10.0,1.0,35.46,1.22,33.95,37.14,Simulación Estándar
+EXP_062,15.0,1.0,35.48,1.22,33.97,37.17,Simulación Estándar
+EXP_063,20.0,1.0,35.51,1.22,33.99,37.19,Simulación Estándar
+EXP_064,25.0,1.0,35.53,1.22,34.01,37.21,Simulación Estándar
+EXP_065,30.0,1.0,35.55,1.22,34.03,37.23,Simulación Estándar
+EXP_066,-30.0,1.5,35.43,1.22,33.94,37.13,Simulación Estándar
+EXP_067,-25.0,1.5,35.46,1.22,33.96,37.15,Simulación Estándar
+EXP_068,-20.0,1.5,35.48,1.22,33.98,37.17,Simulación Estándar
+EXP_069,-15.0,1.5,35.5,1.22,34.0,37.19,Simulación Estándar
+EXP_070,-10.0,1.5,35.52,1.22,34.02,37.22,Simulación Estándar
+EXP_071,-5.0,1.5,35.54,1.22,34.04,37.24,Simulación Estándar
+EXP_072,0.0,1.5,35.57,1.22,34.06,37.26,Simulación Estándar
+EXP_073,5.0,1.5,35.59,1.22,34.08,37.28,Simulación Estándar
+EXP_074,10.0,1.5,35.61,1.22,34.1,37.3,Simulación Estándar
+EXP_075,15.0,1.5,35.63,1.22,34.12,37.32,Simulación Estándar
+EXP_076,20.0,1.5,35.65,1.22,34.14,37.34,Simulación Estándar
+EXP_077,25.0,1.5,35.67,1.22,34.16,37.36,Simulación Estándar
+EXP_078,30.0,1.5,35.7,1.22,34.18,37.39,Simulación Estándar
+EXP_079,-30.0,2.0,35.58,1.22,34.09,37.28,Estagflación
+EXP_080,-25.0,2.0,35.6,1.22,34.11,37.3,Estagflación
+EXP_081,-20.0,2.0,35.62,1.22,34.13,37.33,Estagflación
+EXP_082,-15.0,2.0,35.65,1.22,34.15,37.35,Estagflación
+EXP_083,-10.0,2.0,35.67,1.22,34.17,37.37,Simulación Estándar
+EXP_084,-5.0,2.0,35.69,1.22,34.19,37.39,Simulación Estándar
+EXP_085,0.0,2.0,35.71,1.22,34.21,37.41,Simulación Estándar
+EXP_086,5.0,2.0,35.73,1.22,34.23,37.43,Simulación Estándar
+EXP_087,10.0,2.0,35.76,1.22,34.25,37.45,Simulación Estándar
+EXP_088,15.0,2.0,35.78,1.22,34.27,37.47,Simulación Estándar
+EXP_089,20.0,2.0,35.8,1.22,34.29,37.5,Simulación Estándar
+EXP_090,25.0,2.0,35.82,1.22,34.31,37.52,Simulación Estándar
+EXP_091,30.0,2.0,35.84,1.22,34.33,37.54,Simulación Estándar
+EXP_092,-30.0,2.5,35.72,1.21,34.25,37.43,Estagflación
+EXP_093,-25.0,2.5,35.75,1.21,34.27,37.45,Estagflación
+EXP_094,-20.0,2.5,35.77,1.22,34.29,37.47,Estagflación
+EXP_095,-15.0,2.5,35.79,1.22,34.31,37.49,Estagflación
+EXP_096,-10.0,2.5,35.81,1.22,34.33,37.52,Simulación Estándar
+EXP_097,-5.0,2.5,35.83,1.22,34.35,37.54,Simulación Estándar
+EXP_098,0.0,2.5,35.86,1.22,34.37,37.56,Simulación Estándar
+EXP_099,5.0,2.5,35.88,1.22,34.39,37.58,Simulación Estándar
+EXP_100,10.0,2.5,35.9,1.22,34.41,37.6,Simulación Estándar
+EXP_101,15.0,2.5,35.92,1.22,34.43,37.62,Simulación Estándar
+EXP_102,20.0,2.5,35.94,1.22,34.45,37.64,Simulación Estándar
+EXP_103,25.0,2.5,35.97,1.22,34.47,37.67,Simulación Estándar
+EXP_104,30.0,2.5,35.99,1.22,34.49,37.69,Simulación Estándar
+EXP_105,-30.0,3.0,35.87,1.21,34.4,37.57,Estagflación
+EXP_106,-25.0,3.0,35.89,1.21,34.42,37.6,Estagflación
+EXP_107,-20.0,3.0,35.91,1.21,34.44,37.62,Estagflación
+EXP_108,-15.0,3.0,35.93,1.21,34.46,37.64,Estagflación
+EXP_109,-10.0,3.0,35.96,1.21,34.48,37.66,Simulación Estándar
+EXP_110,-5.0,3.0,35.98,1.21,34.5,37.68,Simulación Estándar
+EXP_111,0.0,3.0,36.0,1.21,34.52,37.7,Simulación Estándar
+EXP_112,5.0,3.0,36.02,1.21,34.54,37.73,Simulación Estándar
+EXP_113,10.0,3.0,36.04,1.21,34.56,37.75,Simulación Estándar
+EXP_114,15.0,3.0,36.07,1.21,34.58,37.77,Simulación Estándar
+EXP_115,20.0,3.0,36.09,1.21,34.6,37.79,Simulación Estándar
+EXP_116,25.0,3.0,36.11,1.21,34.63,37.81,Simulación Estándar
+EXP_117,30.0,3.0,36.13,1.21,34.65,37.83,Simulación Estándar

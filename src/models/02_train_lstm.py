@@ -1,3 +1,7 @@
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
+
 import numpy as np
 import torch
 import torch.nn as nn
@@ -5,7 +9,6 @@ import torch.optim as optim
 from torch.utils.data import TensorDataset, DataLoader
 import joblib
 from sklearn.metrics import mean_squared_error, mean_absolute_error
-import os
 import copy
 
 def inverse_transform_target(scaled_target, scaler):
@@ -21,20 +24,7 @@ def calculate_smape(y_true, y_pred):
     """Symmetric Mean Absolute Percentage Error"""
     return 100 * np.mean(2 * np.abs(y_pred - y_true) / (np.abs(y_true) + np.abs(y_pred)))
 
-class LSTMModel(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size, dropout):
-        super(LSTMModel, self).__init__()
-        self.lstm = nn.LSTM(input_size, hidden_size, batch_first=True)
-        self.dropout = nn.Dropout(dropout)
-        self.fc = nn.Linear(hidden_size, output_size)
-        
-    def forward(self, x):
-        # x shape: (batch, seq_len, features)
-        out, _ = self.lstm(x)
-        # Tomar la salida del último timestep temporal
-        out = self.dropout(out[:, -1, :])
-        out = self.fc(out)
-        return out
+from src.models.architecture import LSTMModel
 
 def train_lstm():
     print("Cargando tensores...")
@@ -129,7 +119,7 @@ def train_lstm():
     smape = calculate_smape(y_test_real, y_pred_real)
 
     print("\n==============================================")
-    print("   RESULTADOS DE LA LSTM EN TEST (2025-2026)  ")
+    print("   RESULTADOS DE LA LSTM EN TEST (2025)  ")
     print("==============================================")
     print(f"RMSE:  {rmse:.4f}")
     print(f"MAE:   {mae:.4f}")

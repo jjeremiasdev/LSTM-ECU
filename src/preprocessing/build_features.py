@@ -21,16 +21,17 @@ def build_features():
     # 1. Cargar el dataset consolidado
     df = pd.read_csv('data/raw/dataset.csv', parse_dates=['fecha'])
     
-    # 2. Codificación Cíclica Temporal (Seno y Coseno)
+    # 2. Estacionarización de variables exógenas (Tasas de Variación Mensual)
+    df['ipc_pct'] = df['ipc'].pct_change().fillna(0) * 100
+    df['wti_pct'] = df['wti'].pct_change().fillna(0) * 100
+    
+    # Codificación Cíclica Temporal (Seno y Coseno)
     df['mes'] = df['fecha'].dt.month
     df['mes_sin'] = np.sin(2 * np.pi * df['mes'] / 12)
     df['mes_cos'] = np.cos(2 * np.pi * df['mes'] / 12)
     
-    # Eliminamos la columna 'mes' original ya que no se la daremos cruda a la red
-    df = df.drop(columns=['mes'])
-    
     # Ordenar columnas para que el target (empleo_adecuado) sea siempre la primera (indice 0)
-    features = ['empleo_adecuado', 'ipc', 'wti', 'es_interpolado', 'mes_sin', 'mes_cos']
+    features = ['empleo_adecuado', 'ipc_pct', 'wti_pct', 'es_interpolado', 'mes_sin', 'mes_cos']
     df_modelo = df[['fecha'] + features].copy()
     
     # 3. Partición de Datos (Train: 2015-2023, Val: 2024, Test: 2025)

@@ -256,5 +256,8 @@ notebook = {
     "nbformat_minor": 4
 }
 
-with open('c:/Users/Admin/Desktop/VII CICLO/METODOLOGIA DE LA INVESTIGACION/PARCIAL 2/LSTM-ECU/notebooks/01_Data_Audit.ipynb', 'w', encoding='utf-8') as f:
+os.makedirs('notebooks', exist_ok=True)
+output_nb_path = 'notebooks/01_Data_Audit.ipynb'
+with open(output_nb_path, 'w', encoding='utf-8') as f:
     json.dump(notebook, f, indent=2, ensure_ascii=False)
+print(f"Notebook generado exitosamente en {output_nb_path}")

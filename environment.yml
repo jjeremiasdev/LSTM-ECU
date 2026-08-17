@@ -15,6 +15,9 @@ dependencies:
   - ipykernel
   - pip
   - pip:
+    - torch
+    - yfinance
+    - xgboost
     - pmdarima
     - shap
     - arch

@@ -31,13 +31,11 @@ def plot_predictions():
     plt.legend(fontsize=12)
     plt.tight_layout()
     
-    # Guardar en el proyecto y en la carpeta de artefactos
+    # Guardar en el proyecto
     os.makedirs('reports/figures', exist_ok=True)
     project_path = 'reports/figures/lstm_predictions.png'
-    artifact_path = r'C:\Users\Admin\.gemini\antigravity\brain\4e7ed046-b23a-442b-a4c9-542e895aa7cf\lstm_predictions.png'
     
     plt.savefig(project_path, dpi=300)
-    plt.savefig(artifact_path, dpi=300)
     
     print(f"Gráfico guardado en: {project_path}")
 
